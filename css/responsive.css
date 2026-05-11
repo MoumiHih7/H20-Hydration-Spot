@@ -820,7 +820,7 @@
 @media (max-width: 1199px) {
   .container {
     max-width: 100%;
-    padding-inline: 15px;
+    padding-inline: 20px;
   }
 
   html {
@@ -852,26 +852,26 @@
   }
 
   .cmn_hdr h4 {
-    font-size: 24px;
-  }
+    font-size: 20px;
+}
 
   .cmn_hdr h6 {
     font-size: 18.5px;
   }
 
   .cmn_hdr p {
-    font-size: 20px;
-  }
+    font-size: 18px;
+}
 
   .cmn_btn {
-    font-size: 20px;
-    padding: 12px 16px;
-  }
+    font-size: 18px;
+    padding: 9px 14px;
+}
 
   .cmn_btn.blu_btn {
-    font-size: 20px;
-    padding: 12px 14px;
-  }
+    font-size: 18px;
+    padding: 9px 14px;
+}
 
   body {
     font-size: 16px;
@@ -907,19 +907,22 @@
     font-size: 8.6rem;
   }
 
-  .ban_content p,
-  .offer_contents.cmn_hdr p,
-  .featured_content.cmn_hdr p,
-  .cmnty_dtls.cmn_hdr p {
-    font-size: 19px;
-    padding-bottom: 22px;
-  }
-
+  .ban_content p, .offer_contents.cmn_hdr p, .featured_content.cmn_hdr p, .cmnty_dtls.cmn_hdr p {
+    font-size: 18px;
+    /* padding-bottom: 22px; */
+}
+.ph_icn_otr {
+  width: 30px;
+  height: 30px;
+}
   .spot {
-    height: 400px;
-    margin-top: -162px;
-    margin-bottom: -160px;
-  }
+    height: 390px;
+    margin-top: -185px;
+    margin-bottom: -185px;
+}
+.ph_icn {
+  font-size: 15px;
+}
 
   .spt_wrpr {
     width: 280px;
@@ -933,9 +936,9 @@
   }
 
   .curve_txt text {
-    font-size: 18px;
+    font-size: 25px;
     letter-spacing: 2px;
-  }
+}
 
   .spt_rnd_otr {
     width: 138px;
@@ -952,8 +955,8 @@
   }
 
   .offer {
-    height: 600px;
-  }
+    height: 700px;
+}
 
   .offr_card {
     gap: 36px;
@@ -968,11 +971,10 @@
   .fetr_crd_img {
     height: 260px;
   }
-
   .fetr_crd_dtls {
-    min-height: 172px;
+    min-height: 155px;
     padding: 20px 16px;
-  }
+}
 
   .fetr_crd_dtls.cmn_hdr p,
   .prps_crd p {
@@ -989,21 +991,21 @@
 
   .community.cmn_pdding {
     margin-bottom: 96px;
-  }
-
-  .purpose {
-    height: 800px;
-  }
-
+    width: 95%;
+    margin-inline: auto;
+}
+.purpose {
+  height: 920px;
+}
   .purpose_contents {
     padding-top: 384px;
     gap: 28px;
   }
 
   .wtr_brl_img {
-    width: 560px;
-    top: -120px;
-  }
+    width: 603px;
+    top: -97px;
+}
 
   .purpose_rgt_img {
     width: 100%;
@@ -1035,11 +1037,11 @@
   }
 
   .sp_crd {
-    width: 520px;
+    width: 570px;
     height: 452px;
     top: 168px;
     padding: 52px 40px;
-  }
+}
 
   .sp_crd span {
     font-size: 46px;
@@ -1052,9 +1054,9 @@
   }
 
   .sp_crd_top {
-    top: 118px;
-    right: 12px;
-  }
+    top: 103px;
+    right: 24px;
+}
 
   .sp_crd_top p {
     font-size: 86px;
@@ -1085,29 +1087,30 @@
   }
 
   .ftr_dv p {
-    font-size: 18px;
+    font-size: 16px;
     padding-bottom: 36px;
     padding-top: 22px;
-  }
+}
+.offr_lng_line {
+  height: 71px;
+}
 
   .ftr_dv li a,
   .ftr_bttm a,
   .ftr_bttm p {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .ftr_rgt .ftr_dv {
     padding-block: 48px;
   }
-
   .ftr_lg {
-    width: 158px;
-  }
-
+    width: 130px;
+}
   .google_post span,
   .star_row .star,
   .star_row span {
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .ftr_lst_dv .op_tm {
@@ -1115,8 +1118,8 @@
   }
 
   .cust_rvew {
-    height: 400px;
-  }
+    height: 500px;
+}
 
   .cust_rvew.cmn_pdding {
     padding: 24px 0;
@@ -1127,10 +1130,12 @@
   }
 
   .review_card {
-    width: 300px;
+    width: 330px;
     padding: 28px 20px;
-  }
-
+}
+.cust_rgt_dv {
+  width: 65%;
+}
   .user_img_lg {
     width: 82px;
     height: 82px;
@@ -1141,8 +1146,8 @@
   }
 
   .google_lg {
-    width: 118px;
-  }
+    width: 110px;
+}
 
   .review_card h5 {
     font-size: 19px;
@@ -1150,9 +1155,44 @@
 
   .review_card p {
     font-size: 17.5px;
+    min-height: 150px;
   }
+  .spot_lft_img, .spot_rgt_img {
+    width: 16.3rem;
+}
+.cmn_blu_bg {
+  margin-bottom: 7px;
 }
 
+}
+/*** ==================<<<<<>>>>>================== ***/
+@media (max-width: 1080px) {
+  .ftr_rw .ftr_rgt {
+    width: 69%;
+  }
+  .ftr_rw .ftr_dv{
+    border-right: 0;
+  }
+  .ftr_rgt .ftr_dv:nth-child(1) {
+    width: 23%;
+}
+.ftr_lg {
+  width: 110px;
+}
+.ftr_dv:nth-child(1) {
+  width: 30%;
+}
+.ftr_ic {
+  width: 25px;
+  height: 25px;
+  font-size: 13px;
+}
+.footer .ftr_trl {
+  width: 300px;
+  height: 307px;
+}
+}
+/*** ==================<<<<<>>>>>================== ***/
 /*** ==================<<<<<>>>>>================== ***/
 
 @media (max-width: 1024px) {
@@ -1173,23 +1213,38 @@
   }
 
   .cmn_hdr h4 {
-    font-size: 23px;
-  }
-
-  .cmn_hdr h6 {
-    font-size: 18px;
-  }
-
-  .cmn_hdr p {
     font-size: 19px;
-  }
+}
 
-  .cmn_btn,
-  .cmn_btn.blu_btn {
-    font-size: 19px;
-    padding: 11px 14px;
-  }
+.cmn_blu_bg h6 {
+  padding: 8px 20px;
+  font-size: 16px;
+}
+.cmn_hdr p {
+  font-size: 17px;
+}
 
+  .cmn_btn, .cmn_btn.blu_btn {
+    font-size: 17px;
+    padding: 8px 10px;
+}
+.wht_drop {
+  width: 20px;
+}
+.ph_icn_otr {
+  width: 23px;
+  height: 23px;
+}
+.ph_icn {
+  font-size: 12px;
+}
+.spt_rnd_otr {
+  width: 125px;
+  height: 124px;
+}
+.offr_lng_line {
+  height: 73px;
+}
   .nav-link {
     font-size: 16.5px;
   }
@@ -1203,8 +1258,8 @@
   }
 
   .ph_num {
-    font-size: 18px;
-  }
+    font-size: 16px;
+}
 
   header .navbar-nav {
     gap: 1rem;
@@ -1222,19 +1277,19 @@
     font-size: 7.8rem;
   }
 
-  .ban_content p,
-  .offer_contents.cmn_hdr p,
-  .featured_content.cmn_hdr p,
-  .cmnty_dtls.cmn_hdr p {
-    font-size: 18px;
-  }
+  .ban_content p, .offer_contents.cmn_hdr p, .featured_content.cmn_hdr p, .cmnty_dtls.cmn_hdr p {
+    font-size: 17px;
+}
+.crcl_after {
+  width: 94px;
+  height: 94px;
+}
 
   .spot {
-    height: 368px;
+    height: 348px;
     margin-top: -148px;
-    margin-bottom: -146px;
-  }
-
+    margin-bottom: -170px;
+}
   .spt_wrpr {
     width: 260px;
     top: 100px;
@@ -1247,21 +1302,21 @@
   }
 
   .offer {
-    height: 548px;
-  }
+    height: 695px;
+}
 
   .offr_card {
     gap: 28px;
   }
 
   .fetr_crd_img {
-    height: 240px;
-  }
+    height: 200px;
+}
 
-  .fetr_crd_dtls {
-    min-height: 164px;
-    padding: 18px 14px;
-  }
+.fetr_crd_dtls {
+  min-height: 167px;
+  padding: 18px 14px;
+}
 
   .community .container {
     height: 296px;
@@ -1272,23 +1327,28 @@
   }
 
   .purpose {
-    height: 720px;
-  }
+    height: 880px;
+}
+.prps_lft_dv {
+  width: 54%;
+}
 
-  .purpose_contents {
-    padding-top: 340px;
-  }
+
+.purpose_contents {
+  flex-wrap: wrap;
+  padding-top: 382px;
+}
 
   .wtr_brl_img {
     width: 500px;
-  }
-
-  .purpose_rgt_img {
-    max-width: 420px;
-  }
+    top: -44px;
+}
+.purpose_rgt_img {
+  max-width: 420px;
+}
 
   .bottle_img {
-    width: 220px;
+    width: 197px;
   }
 
   .hyd_bking {
@@ -1302,12 +1362,15 @@
   }
 
   .sp_crd {
-    width: 448px;
+    width: 530px;
     height: 390px;
-    top: 148px;
+    top: 163px;
     padding: 44px 32px;
-  }
+}
 
+.ftr_dv p {
+  font-size: 16px;
+}
   .sp_crd span {
     font-size: 42px;
   }
@@ -1338,13 +1401,13 @@
   }
 
   .cust_rvew {
-    height: 368px;
-  }
+    height: 440px;
+}
 
   .review_card {
-    width: 280px;
+    width: 318px;
     padding: 26px 18px;
-  }
+}
 
   .user_info h4 {
     font-size: 22px;
@@ -1352,6 +1415,7 @@
 
   .review_card p {
     font-size: 17px;
+    min-height: 138px;
   }
 }
 
@@ -1375,26 +1439,22 @@
   }
 
   .cmn_hdr h4 {
-    font-size: 22px;
-  }
+    font-size: 18px;
+}
 
   .cmn_hdr h6 {
-    font-size: 17.5px;
+    font-size: 16.5px;
   }
 
   .cmn_hdr p {
     font-size: 18px;
   }
 
-  .cmn_btn {
-    font-size: 18px;
-    padding: 11px 14px;
-  }
 
-  .cmn_btn.blu_btn {
-    font-size: 18px;
-    padding: 11px 12px;
-  }
+  .cmn_btn.blu_btn ,.cmn_btn {
+    font-size: 16px;
+    padding: 8px 12px;
+}
 
   body {
     font-size: 15px;
@@ -1437,15 +1497,15 @@
   }
 
   .spot {
-    height: 340px;
-    margin-top: -136px;
-    margin-bottom: -134px;
-  }
+    height: 308px;
+    margin-top: -127px;
+    margin-bottom: -174px;
+}
 
-  .spt_wrpr {
-    width: 240px;
-    top: 92px;
-  }
+.spt_wrpr {
+  width: 258px;
+  top: 56px;
+}
 
   .curve_txt {
     width: 240px;
@@ -1454,14 +1514,13 @@
   }
 
   .curve_txt text {
-    font-size: 16px;
-  }
+    font-size: 25px;
+}
 
   .spt_rnd_otr {
-    width: 128px;
-    height: 128px;
-  }
-
+    width: 115px;
+    height: 115px;
+}
   .spt_rnd_img {
     width: 98px;
     height: 98px;
@@ -1472,17 +1531,16 @@
   }
 
   .offer {
-    height: 508px;
-  }
-
+    height: 725px;
+}
   .offr_card {
     gap: 24px;
     padding: 14px 5px;
   }
 
   .offr_crd_dtls.cmn_hdr p {
-    font-size: 18px;
-  }
+    font-size: 16px;
+}
 
   .fetr_crd_img {
     height: 220px;
@@ -1506,13 +1564,6 @@
     margin-bottom: 80px;
   }
 
-  .purpose {
-    height: 660px;
-  }
-
-  .purpose_contents {
-    padding-top: 300px;
-  }
 
   .wtr_brl_img {
     width: 440px;
@@ -1520,14 +1571,14 @@
   }
 
   .purpose_rgt_img {
-    max-width: 380px;
-  }
+    max-width: 420px;
+    margin: auto;
+}
 
-  .bottle_img {
-    width: 200px;
-    left: -100px;
-  }
-
+.bottle_img {
+  width: 210px;
+  left: 165px;
+}
   .hyd_bking {
     height: 520px;
     margin-bottom: -88px;
@@ -1539,11 +1590,11 @@
   }
 
   .sp_crd {
-    width: 400px;
-    height: 348px;
-    top: 128px;
+    width: 524px;
+    height: 368px;
+    top: 146px;
     padding: 36px 26px;
-  }
+}
 
   .sp_crd span {
     font-size: 38px;
@@ -1552,12 +1603,16 @@
   .sp_crd span:nth-of-type(2) {
     font-size: 18px;
   }
-
   .sp_crd_top {
     top: 88px;
-    right: 8px;
-  }
-
+    right: 55px;
+}
+.sp_crd_top span {
+  width: 50px;
+}
+.ftr_lg {
+  width: 95px;
+}
   .sp_crd_top p {
     font-size: 68px;
   }
@@ -1579,26 +1634,34 @@
   .ftr_hd h5 {
     font-size: 19px;
   }
-
-  .ftr_dv p,
-  .ftr_dv li a,
-  .ftr_bttm a,
-  .ftr_bttm p {
-    font-size: 17px;
-  }
+  .ftr_dv p, .ftr_dv li a, .ftr_bttm a, .ftr_bttm p {
+    font-size: 15px;
+}
+.ftr_dv:nth-child(1) {
+  width: 27%;
+}
+.ftr_rw .ftr_rgt {
+  width: 73%;
+}
+.cmn_blu_bg {
+  justify-content: center;
+}
 
   .cust_rvew {
-    height: 340px;
-  }
+    height: 420px;
+}
 
   .cust_main {
     gap: 12px;
   }
 
   .review_card {
-    width: 260px;
+    width: 306px;
     padding: 24px 16px;
-  }
+}
+.google_lg {
+  width: 90px;
+}
 
   .user_info h4 {
     font-size: 21px;
@@ -1611,11 +1674,6 @@
   .review_card p {
     font-size: 16px;
   }
-}
-
-/*** ==================<<<<<>>>>>================== ***/
-
-@media (max-width: 768px) {
   .offr_swpr{
     display: block;
     width: 100%;
@@ -1623,6 +1681,124 @@
   .offr_crd_layout{
     display: none;
   }
+  .spot_lft_img, .spot_rgt_img {
+    width: 14.3rem;
+}
+.purpose::before {
+  display: block;
+  height: 290px;
+  width: 991px;
+  background-size: 100% 100%;
+  background-position: top;
+  z-index: -1;
+}
+.purpose {
+  height: unset;
+  background: none;
+}
+
+.purpose .container{
+  padding: 0;
+}
+.purpose_contents {
+  padding-top: 285px;
+  flex-direction: column;
+  gap: 0;
+}
+.prps_lft_dv, .prps_rgt_dv {
+  width: 100%;
+  background-color: #e1eef7;
+  text-align: center;
+}
+.left_mn{
+  padding: 20px;
+}
+.prps_rgt_dv {
+  padding-bottom: 45px;
+}
+.abt_sec {
+  flex-direction: column;
+  gap: 30px;
+}
+.abt_us_lft {
+  width: 50%;
+}
+.abt_us_rgt {
+  width: 90%;
+  text-align: center;
+}
+.abt_us_rgt .cmn_blu_bg {
+  justify-content: center;
+}
+}
+/* ================================== */
+@media (max-width: 840px) {
+header .navbar {
+  position: relative;
+}
+
+header .navbar-toggler {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 15px;
+  right: auto;
+  border: none;
+  padding: 6px 10px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  z-index: 50;
+}
+
+header .navbar-toggler:focus {
+  box-shadow: none;
+  outline: none;
+  border: none;
+}
+
+.MenuBar {
+  font-size: 20px;
+  display: inline-block;
+  fill: #282460;
+}
+
+header .navbar-toggler .menu_text {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1;
+  color: #041935;
+}
+
+/* Center logo (existing absolute) and reduce size for mobile */
+header .logo_otr {
+  width: 85px;
+  height: 85px;
+}
+header .logo_area {
+  width: 75px;
+}
+.review_card {
+  width: 265px;
+  padding: 24px 16px;
+}
+
+
+.cntc_num {
+  gap: 4px;
+}
+.nav_buttn .cmn_btn.blu_btn{
+  display: none;
+}
+.cust_rvew {
+  height: 450px;
+}
+}
+/*** ==================<<<<<>>>>>================== ***/
+
+@media (max-width: 768px) {
+ 
 
   .cmn_hdr h3 {
     font-size: 38px;
@@ -1743,8 +1919,8 @@
   .MenuBar {
     font-size: 20px;
     display: inline-block;
-    fill: #fff;
-  }
+    fill: #282460;
+}
 
   header .navbar-toggler .menu_text {
     display: inline-block;
@@ -1778,9 +1954,7 @@
     display: none;
   }
 
-  header .nav_cntct .ph_icn_otr {
-    display: none;
-  }
+ 
 
   header .nav_cntct .ph_num {
     font-size: 18px;

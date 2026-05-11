@@ -1318,9 +1318,18 @@ background: #fff;
 
 .offr_swpr .offr_card {
   width: 100%;
-  gap: 32px;
+  gap: 44px;
   background: white;
   border: 2px solid #272360;
-  height: 350px;
+  height: 300px;
   justify-content: center;
+}
+.purpose::before{
+  content:"";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background: url("../images/porpose_top_desk.png");
+  display: none;
 }

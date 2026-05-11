@@ -75,6 +75,21 @@ var swiper = new Swiper(".featr_swpr .mySwiper", {
     //     disableOnInteraction: true,
     // },
     speed: 1500,
+    breakpoints: {
+        0: {
+            slidesPerView: 1,
+        },
+
+        768: {
+            slidesPerView: 3.2,
+        },
+
+        1200: {
+            slidesPerView: 3.9,
+            gap: 20,
+        },
+        
+    },
     // direction: "vertical",
 });
 
@@ -118,7 +133,7 @@ document.addEventListener("DOMContentLoaded", function () {
             },
 
             768: {
-                slidesPerView: 2,
+                slidesPerView: 2.3,
             },
 
             1200: {
@@ -152,6 +167,9 @@ var swiper = new Swiper(".offr_swpr .mySwiper1", {
 
         768: {
             slidesPerView: 2.2,
+        },
+        840: {
+            slidesPerView: 3.2,
         }
     }
 });
