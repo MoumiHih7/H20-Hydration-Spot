@@ -1,0 +1,2070 @@
+/* Desktop–laptop: typography + layout scale (1680 → 991) */
+
+@media (max-width: 1680px) {
+  .container {
+    max-width: 1450px;
+  }
+
+  html {
+    font-size: 53%;
+  }
+
+  .cmn_pdding {
+    padding: 78px 0;
+  }
+
+  .cmn_hdr h2 {
+    font-size: 5.4rem;
+  }
+
+  .cmn_hdr h4 {
+    font-size: 30px;
+  }
+
+  .cmn_hdr h6 {
+    font-size: 21px;
+  }
+
+  .cmn_hdr p {
+    font-size: 22px;
+  }
+
+  .cmn_btn,
+  .cmn_btn.blu_btn {
+    font-size: 22px;
+    padding: 14px 18px;
+  }
+
+  body {
+    font-size: 17px;
+  }
+
+  .top_nav p {
+    font-size: 19px;
+  }
+
+  .nav-link {
+    font-size: 19px;
+  }
+
+  .ph_num {
+    font-size: 21px;
+  }
+
+  header .navbar-nav {
+    gap: 1.75rem;
+  }
+
+  .ban_content {
+    width: 44%;
+  }
+
+  .ban_content h1 {
+    font-size: 62px;
+  }
+
+  .ban_content h1 span {
+    font-size: 11.8rem;
+  }
+
+  .ban_content p,
+  .offer_contents.cmn_hdr p,
+  .featured_content.cmn_hdr p,
+  .cmnty_dtls.cmn_hdr p {
+    font-size: 22px;
+  }
+
+  .spot {
+    height: 535px;
+    margin-top: -218px;
+    margin-bottom: -214px;
+  }
+
+  .spt_wrpr {
+    width: 350px;
+    top: 155px;
+  }
+
+  .curve_txt {
+    width: 350px;
+    height: 215px;
+    top: -82px;
+  }
+
+  .curve_txt text {
+    font-size: 22px;
+  }
+
+  .spt_rnd_otr {
+    width: 160px;
+    height: 160px;
+  }
+
+  .spt_rnd_img {
+    width: 124px;
+    height: 124px;
+  }
+
+  .spt_rnd_img img {
+    width: 72px;
+  }
+
+  .offer {
+    height: 818px;
+  }
+
+  .offr_card {
+    gap: 64px;
+    padding: 18px 6px;
+  }
+
+  .offr_crd_dtls.cmn_hdr p {
+    font-size: 21px;
+  }
+
+  .fetr_crd_img {
+    height: 328px;
+  }
+
+  .fetr_crd_dtls {
+    min-height: 200px;
+    padding: 26px 24px;
+    padding-bottom: 18px;
+  }
+
+  .fetr_crd_dtls.cmn_hdr p,
+  .prps_crd p {
+    font-size: 19px;
+  }
+
+  .fetr_crd_dtls.cmn_hdr h4 {
+    padding-bottom: 7px;
+  }
+
+  .community .container {
+    height: 412px;
+  }
+
+  .community.cmn_pdding {
+    margin-bottom: 132px;
+  }
+
+  .purpose {
+    height: 1155px;
+  }
+
+  .purpose_contents {
+    padding-top: 508px;
+  }
+
+  .wtr_brl_img {
+    width: 754px;
+    top: -84px;
+}
+
+  .purpose_rgt_img {
+    width: 620px;
+  }
+
+  .bottle_img {
+    width: 328px;
+  }
+
+  .hyd_bking {
+    height: 845px;
+    margin-bottom: -148px;
+  }
+
+  .hyd_img {
+    width: 788px;
+    height: 831px;
+  }
+
+  .sp_crd {
+    width: 736px;
+    height: 634px;
+    top: 232px;
+    padding: 88px 70px;
+  }
+
+  .sp_crd span {
+    font-size: 62px;
+  }
+
+  .sp_crd span:nth-of-type(2) {
+    font-size: 29px;
+  }
+
+  .sp_crd_top {
+    top: 148px;
+    right: 22px;
+  }
+
+  .sp_crd_top p {
+    font-size: 114px;
+  }
+
+  .sp_btns .cmn_btn {
+    font-size: 22px;
+    padding: 8px 14px;
+  }
+
+  /* .footer {
+    height: 592px;
+  } */
+
+  .footer .ftr_trl {
+    width: 448px;
+    height: 458px;
+  }
+
+  .ftr_hd h5 {
+    font-size: 22px;
+  }
+
+  .ftr_dv p,
+  .ftr_dv li a,
+  .ftr_bttm a,
+  .ftr_bttm p {
+    font-size: 19px;
+  }
+
+  .cust_rvew {
+    height: 518px;
+  }
+
+  .review_card {
+    width: 369px;
+    padding: 36px 26px;
+  }
+
+  .user_info h4 {
+    font-size: 29px;
+  }
+
+  .review_card h5 {
+    font-size: 22px;
+  }
+
+  .review_card p {
+    font-size: 19px;
+  }
+  .star_row {
+    padding-bottom: 22px;
+}
+.review_card p {
+  width: 95%;
+}
+.ftr_lg {
+  width: 160px;
+}
+}
+
+/*** ==================<<<<<>>>>>================== ***/
+
+@media (max-width: 1470px) {
+  .container {
+    max-width: 1340px;
+  }
+
+  html {
+    font-size: 50%;
+  }
+
+  .cmn_pdding {
+    padding: 70px 0;
+  }
+
+  .cmn_hdr h2 {
+    font-size: 5.1rem;
+  }
+
+  .cmn_hdr h4 {
+    font-size: 25px;
+  }
+
+  .cmn_hdr h6 {
+    font-size: 20px;
+  }
+
+  .cmn_hdr p {
+    font-size: 21px;
+  }
+
+  .cmn_btn,
+  .cmn_btn.blu_btn {
+    font-size: 21px;
+    padding: 13px 17px;
+  }
+
+  body {
+    font-size: 16.5px;
+  }
+
+  .top_nav p {
+    font-size: 18px;
+  }
+
+  .nav-link {
+    font-size: 18px;
+  }
+
+  .ph_num {
+    font-size: 20px;
+  }
+
+  header .navbar-nav {
+    gap: 1.5rem;
+  }
+
+  .ban_content {
+    width: 46%;
+    top: 26%;
+  }
+
+  .ban_content h1 {
+    font-size: 56px;
+  }
+
+  .ban_content h1 span {
+    font-size: 10.6rem;
+  }
+
+  .ban_content p,
+  .offer_contents.cmn_hdr p,
+  .featured_content.cmn_hdr p,
+  .cmnty_dtls.cmn_hdr p {
+    font-size: 21px;
+  }
+
+  .spot {
+    height: 485px;
+    margin-top: -198px;
+    margin-bottom: -194px;
+  }
+
+  .spt_wrpr {
+    width: 320px;
+    top: 142px;
+  }
+
+  .curve_txt {
+    width: 320px;
+    height: 198px;
+    top: -76px;
+  }
+
+  .curve_txt text {
+    font-size: 21px;
+  }
+
+  .spt_rnd_otr {
+    width: 152px;
+    height: 152px;
+  }
+
+  .spt_rnd_img {
+    width: 118px;
+    height: 118px;
+  }
+
+  .spt_rnd_img img {
+    width: 68px;
+  }
+
+  .offer {
+    height: 718px;
+  }
+
+  .offr_card {
+    gap: 52px;
+    padding: 16px 5px;
+  }
+
+  .offr_crd_dtls.cmn_hdr p {
+    font-size: 20px;
+  }
+
+  .fetr_crd_img {
+    height: 302px;
+  }
+
+  .fetr_crd_dtls {
+    min-height: 190px;
+    padding: 24px 20px;
+  }
+
+  .fetr_crd_dtls.cmn_hdr p,
+  .prps_crd p {
+    font-size: 18.5px;
+  }
+
+  .community .container {
+    height: 372px;
+  }
+
+  .community.cmn_pdding {
+    margin-bottom: 118px;
+  }
+
+  .purpose {
+    height: 948px;
+  }
+
+  .purpose_contents {
+    padding-top: 456px;
+  }
+
+  .wtr_brl_img {
+    width: 678px;
+  }
+
+  .purpose_rgt_img {
+    width: 560px;
+  }
+
+  .bottle_img {
+    width: 298px;
+  }
+
+  .prps_crd .crcl_after {
+    width: 100px;
+    height: 100px;
+  }
+
+  .hyd_bking {
+    height: 758px;
+    margin-bottom: -132px;
+  }
+
+  .hyd_img {
+    width: 708px;
+    height: 746px;
+  }
+
+  .sp_crd {
+    width: 662px;
+    height: 572px;
+    top: 210px;
+    padding: 76px 60px;
+  }
+
+  .sp_crd span {
+    font-size: 56px;
+  }
+
+  .sp_crd span:nth-of-type(2) {
+    font-size: 27px;
+  }
+
+  .sp_crd_top p {
+    font-size: 104px;
+  }
+
+  /* .footer {
+    height: 534px;
+  } */
+
+  .footer .ftr_trl {
+    width: 404px;
+    height: 414px;
+  }
+
+  .ftr_rgt .ftr_dv {
+    padding-block: 64px;
+  }
+
+  .cust_rvew {
+    height: 472px;
+  }
+
+  .review_card {
+    width: 348px;
+    padding: 34px 24px;
+  }
+
+  .user_img_lg {
+    width: 88px;
+    height: 88px;
+  }
+
+  .user_info h4 {
+    font-size: 28px;
+  }
+
+  .review_card h5 {
+    font-size: 21px;
+  }
+
+  .review_card p {
+    font-size: 18.5px;
+  }
+}
+
+/*** ==================<<<<<>>>>>================== ***/
+
+@media (max-width: 1366px) {
+  .container {
+    max-width: 1240px;
+  }
+
+  html {
+    font-size: 48%;
+  }
+
+  .cmn_pdding {
+    padding: 64px 0;
+  }
+
+  .cmn_hdr h2 {
+    font-size: 4.85rem;
+  }
+
+  .cmn_hdr h4 {
+    font-size: 24px;
+  }
+
+  .cmn_hdr h6 {
+    font-size: 19px;
+  }
+
+  .cmn_hdr p {
+    font-size: 20px;
+  }
+
+  .cmn_btn,
+  .cmn_btn.blu_btn {
+    font-size: 20px;
+    padding: 12px 16px;
+  }
+
+  body {
+    font-size: 16px;
+  }
+
+  .top_nav p {
+    font-size: 17.5px;
+  }
+
+  .nav-link {
+    font-size: 17.5px;
+  }
+
+  .ph_num {
+    font-size: 19px;
+  }
+
+  .nav_cntct {
+    gap: 14px;
+  }
+
+  .ban_content {
+    width: 48%;
+    top: 25%;
+  }
+
+  .ban_content h1 {
+    font-size: 52px;
+  }
+
+  .ban_content h1 span {
+    font-size: 9.8rem;
+  }
+
+  .ban_content p,
+  .offer_contents.cmn_hdr p,
+  .featured_content.cmn_hdr p,
+  .cmnty_dtls.cmn_hdr p {
+    font-size: 20px;
+  }
+
+  .spot {
+    height: 448px;
+    margin-top: -182px;
+    margin-bottom: -180px;
+  }
+
+  .spt_wrpr {
+    width: 300px;
+    top: 128px;
+  }
+
+  .curve_txt {
+    width: 300px;
+    height: 186px;
+    top: -70px;
+  }
+
+  .curve_txt text {
+    font-size: 20px;
+    letter-spacing: 3px;
+  }
+
+  .spt_rnd_otr {
+    width: 146px;
+    height: 146px;
+  }
+
+  .spt_rnd_img {
+    width: 112px;
+    height: 112px;
+  }
+
+  .spt_rnd_img img {
+    width: 64px;
+  }
+
+  .offer {
+    height: 668px;
+  }
+
+  .offr_card {
+    gap: 44px;
+  }
+
+  .fetr_crd_img {
+    height: 282px;
+  }
+
+  .fetr_crd_dtls {
+    min-height: 182px;
+    padding: 22px 18px;
+  }
+
+  .fetr_crd_dtls.cmn_hdr p,
+  .prps_crd p {
+    font-size: 18px;
+  }
+
+  .community .container {
+    height: 348px;
+  }
+
+  .community.cmn_pdding {
+    margin-bottom: 108px;
+  }
+
+  .purpose {
+    height: 880px;
+  }
+
+  .purpose_contents {
+    padding-top: 424px;
+  }
+
+  .wtr_brl_img {
+    width: 628px;
+  }
+
+  .purpose_rgt_img {
+    width: 520px;
+  }
+
+  .bottle_img {
+    width: 276px;
+  }
+
+  .hyd_bking {
+    height: 698px;
+    margin-bottom: -122px;
+  }
+
+  .hyd_img {
+    width: 652px;
+    height: 688px;
+  }
+
+  .sp_crd {
+    width: 608px;
+    height: 526px;
+    top: 196px;
+    padding: 68px 52px;
+  }
+
+  .sp_crd span {
+    font-size: 52px;
+  }
+
+  .sp_crd span:nth-of-type(2) {
+    font-size: 25px;
+  }
+
+  .sp_crd_top {
+    top: 136px;
+    right: 18px;
+  }
+
+  .sp_crd_top p {
+    font-size: 96px;
+  }
+
+  /* .footer {
+    height: 498px;
+  } */
+
+  .footer .ftr_trl {
+    width: 376px;
+    height: 386px;
+  }
+
+  .ftr_dv:nth-child(1) {
+    padding-right: 28px;
+  }
+
+  .ftr_rgt .ftr_dv {
+    padding-block: 56px;
+  }
+
+  .cust_rvew {
+    height: 442px;
+  }
+
+  .review_card {
+    width: 328px;
+    padding: 32px 22px;
+  }
+
+  .user_info h4 {
+    font-size: 26px;
+  }
+
+  .review_card h5 {
+    font-size: 20px;
+  }
+
+  .review_card p {
+    font-size: 18px;
+  }
+}
+
+/*** ==================<<<<<>>>>>================== ***/
+
+@media (max-width: 1199px) {
+  .container {
+    max-width: 100%;
+  }
+
+  html {
+    font-size: 46%;
+  }
+
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  img,
+  svg {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .cmn_pdding {
+    padding: 56px 0;
+  }
+
+  .cmn_hdr h2 {
+    font-size: 4.6rem;
+  }
+
+  .cmn_hdr h3 {
+    font-size: 48px;
+  }
+
+  .cmn_hdr h4 {
+    font-size: 24px;
+  }
+
+  .cmn_hdr h6 {
+    font-size: 18.5px;
+  }
+
+  .cmn_hdr p {
+    font-size: 20px;
+  }
+
+  .cmn_btn {
+    font-size: 20px;
+    padding: 12px 16px;
+  }
+
+  .cmn_btn.blu_btn {
+    font-size: 20px;
+    padding: 12px 14px;
+  }
+
+  body {
+    font-size: 16px;
+  }
+
+  .top_nav p {
+    font-size: 17px;
+  }
+
+  .nav-link {
+    font-size: 17px;
+  }
+
+  .ph_num {
+    font-size: 18.5px;
+  }
+
+  header .navbar-nav {
+    gap: 1.25rem;
+  }
+
+  .ban_content {
+    width: 50%;
+    top: 24%;
+  }
+
+  .ban_content h1 {
+    font-size: 46px;
+    padding-bottom: 12px;
+  }
+
+  .ban_content h1 span {
+    font-size: 8.6rem;
+  }
+
+  .ban_content p,
+  .offer_contents.cmn_hdr p,
+  .featured_content.cmn_hdr p,
+  .cmnty_dtls.cmn_hdr p {
+    font-size: 19px;
+    padding-bottom: 22px;
+  }
+
+  .spot {
+    height: 400px;
+    margin-top: -162px;
+    margin-bottom: -160px;
+  }
+
+  .spt_wrpr {
+    width: 280px;
+    top: 112px;
+  }
+
+  .curve_txt {
+    width: 280px;
+    height: 172px;
+    top: -64px;
+  }
+
+  .curve_txt text {
+    font-size: 18px;
+    letter-spacing: 2px;
+  }
+
+  .spt_rnd_otr {
+    width: 138px;
+    height: 138px;
+  }
+
+  .spt_rnd_img {
+    width: 106px;
+    height: 106px;
+  }
+
+  .spt_rnd_img img {
+    width: 60px;
+  }
+
+  .offer {
+    height: 600px;
+  }
+
+  .offr_card {
+    gap: 36px;
+    padding: 16px 5px;
+  }
+
+  .crcl_after {
+    width: 104px;
+    height: 104px;
+  }
+
+  .fetr_crd_img {
+    height: 260px;
+  }
+
+  .fetr_crd_dtls {
+    min-height: 172px;
+    padding: 20px 16px;
+  }
+
+  .fetr_crd_dtls.cmn_hdr p,
+  .prps_crd p {
+    font-size: 17.5px;
+  }
+
+  .featured_content {
+    padding-bottom: 36px;
+  }
+
+  .community .container {
+    height: 320px;
+  }
+
+  .community.cmn_pdding {
+    margin-bottom: 96px;
+  }
+
+  .purpose {
+    height: 800px;
+  }
+
+  .purpose_contents {
+    padding-top: 384px;
+    gap: 28px;
+  }
+
+  .wtr_brl_img {
+    width: 560px;
+    top: -120px;
+  }
+
+  .purpose_rgt_img {
+    width: 100%;
+    max-width: 480px;
+  }
+
+  .bottle_img {
+    width: 248px;
+    left: -120px;
+  }
+
+  .prps_crd .crcl_after {
+    width: 96px;
+    height: 96px;
+  }
+
+  .hyd_bking {
+    height: 620px;
+    margin-bottom: -108px;
+  }
+
+  .hyd_lft_img {
+    bottom: 24px;
+  }
+
+  .hyd_img {
+    width: 520px;
+    height: 548px;
+  }
+
+  .sp_crd {
+    width: 520px;
+    height: 452px;
+    top: 168px;
+    padding: 52px 40px;
+  }
+
+  .sp_crd span {
+    font-size: 46px;
+    padding-bottom: 12px;
+  }
+
+  .sp_crd span:nth-of-type(2) {
+    font-size: 22px;
+    padding-bottom: 28px;
+  }
+
+  .sp_crd_top {
+    top: 118px;
+    right: 12px;
+  }
+
+  .sp_crd_top p {
+    font-size: 86px;
+  }
+
+  .sp_btns {
+    gap: 16px;
+  }
+
+  .sp_btns .cmn_btn {
+    font-size: 18px;
+    padding: 8px 12px;
+  }
+
+  /* .footer {
+    height: 448px;
+  } */
+
+  .footer .ftr_trl {
+    width: 336px;
+    height: 346px;
+  }
+
+  .ftr_hd h5 {
+    font-size: 21px;
+    padding-bottom: 18px;
+    padding-top: 22px;
+  }
+
+  .ftr_dv p {
+    font-size: 18px;
+    padding-bottom: 36px;
+    padding-top: 22px;
+  }
+
+  .ftr_dv li a,
+  .ftr_bttm a,
+  .ftr_bttm p {
+    font-size: 18px;
+  }
+
+  .ftr_rgt .ftr_dv {
+    padding-block: 48px;
+  }
+
+  .ftr_lg {
+    width: 158px;
+  }
+
+  .google_post span,
+  .star_row .star,
+  .star_row span {
+    font-size: 16px;
+  }
+
+  .ftr_lst_dv .op_tm {
+    font-size: 16px;
+  }
+
+  .cust_rvew {
+    height: 400px;
+  }
+
+  .cust_rvew.cmn_pdding {
+    padding: 24px 0;
+  }
+
+  .reviewSwiper {
+    padding: 22px 14px;
+  }
+
+  .review_card {
+    width: 300px;
+    padding: 28px 20px;
+  }
+
+  .user_img_lg {
+    width: 82px;
+    height: 82px;
+  }
+
+  .user_info h4 {
+    font-size: 24px;
+  }
+
+  .google_lg {
+    width: 118px;
+  }
+
+  .review_card h5 {
+    font-size: 19px;
+  }
+
+  .review_card p {
+    font-size: 17.5px;
+  }
+}
+
+/*** ==================<<<<<>>>>>================== ***/
+
+@media (max-width: 1024px) {
+  html {
+    font-size: 44%;
+  }
+
+  .cmn_pdding {
+    padding: 50px 0;
+  }
+
+  .cmn_hdr h2 {
+    font-size: 4.35rem;
+  }
+
+  .cmn_hdr h3 {
+    font-size: 44px;
+  }
+
+  .cmn_hdr h4 {
+    font-size: 23px;
+  }
+
+  .cmn_hdr h6 {
+    font-size: 18px;
+  }
+
+  .cmn_hdr p {
+    font-size: 19px;
+  }
+
+  .cmn_btn,
+  .cmn_btn.blu_btn {
+    font-size: 19px;
+    padding: 11px 14px;
+  }
+
+  .nav-link {
+    font-size: 16.5px;
+  }
+
+  body {
+    font-size: 15.5px;
+  }
+
+  .top_nav p {
+    font-size: 16.5px;
+  }
+
+  .ph_num {
+    font-size: 18px;
+  }
+
+  header .navbar-nav {
+    gap: 1rem;
+  }
+
+  .ban_content {
+    width: 52%;
+  }
+
+  .ban_content h1 {
+    font-size: 42px;
+  }
+
+  .ban_content h1 span {
+    font-size: 7.8rem;
+  }
+
+  .ban_content p,
+  .offer_contents.cmn_hdr p,
+  .featured_content.cmn_hdr p,
+  .cmnty_dtls.cmn_hdr p {
+    font-size: 18px;
+  }
+
+  .spot {
+    height: 368px;
+    margin-top: -148px;
+    margin-bottom: -146px;
+  }
+
+  .spt_wrpr {
+    width: 260px;
+    top: 100px;
+  }
+
+  .curve_txt {
+    width: 260px;
+    height: 160px;
+    top: -58px;
+  }
+
+  .offer {
+    height: 548px;
+  }
+
+  .offr_card {
+    gap: 28px;
+  }
+
+  .fetr_crd_img {
+    height: 240px;
+  }
+
+  .fetr_crd_dtls {
+    min-height: 164px;
+    padding: 18px 14px;
+  }
+
+  .community .container {
+    height: 296px;
+  }
+
+  .community.cmn_pdding {
+    margin-bottom: 88px;
+  }
+
+  .purpose {
+    height: 720px;
+  }
+
+  .purpose_contents {
+    padding-top: 340px;
+  }
+
+  .wtr_brl_img {
+    width: 500px;
+  }
+
+  .purpose_rgt_img {
+    max-width: 420px;
+  }
+
+  .bottle_img {
+    width: 220px;
+  }
+
+  .hyd_bking {
+    height: 560px;
+    margin-bottom: -96px;
+  }
+
+  .hyd_img {
+    width: 440px;
+    height: 464px;
+  }
+
+  .sp_crd {
+    width: 448px;
+    height: 390px;
+    top: 148px;
+    padding: 44px 32px;
+  }
+
+  .sp_crd span {
+    font-size: 42px;
+  }
+
+  .sp_crd span:nth-of-type(2) {
+    font-size: 20px;
+  }
+
+  .sp_crd_top {
+    top: 102px;
+  }
+
+  .sp_crd_top p {
+    font-size: 76px;
+  }
+
+  /* .footer {
+    height: 408px;
+  } */
+
+  .footer .ftr_trl {
+    width: 300px;
+    height: 308px;
+  }
+
+  .ftr_rgt .ftr_dv {
+    padding-block: 40px;
+  }
+
+  .cust_rvew {
+    height: 368px;
+  }
+
+  .review_card {
+    width: 280px;
+    padding: 26px 18px;
+  }
+
+  .user_info h4 {
+    font-size: 22px;
+  }
+
+  .review_card p {
+    font-size: 17px;
+  }
+}
+
+/*** ==================<<<<<>>>>>================== ***/
+
+@media (max-width: 991px) {
+  html {
+    font-size: 42%;
+  }
+
+  .cmn_pdding {
+    padding: 46px 0;
+  }
+
+  .cmn_hdr h2 {
+    font-size: 4.15rem;
+  }
+
+  .cmn_hdr h3 {
+    font-size: 40px;
+  }
+
+  .cmn_hdr h4 {
+    font-size: 22px;
+  }
+
+  .cmn_hdr h6 {
+    font-size: 17.5px;
+  }
+
+  .cmn_hdr p {
+    font-size: 18px;
+  }
+
+  .cmn_btn {
+    font-size: 18px;
+    padding: 11px 14px;
+  }
+
+  .cmn_btn.blu_btn {
+    font-size: 18px;
+    padding: 11px 12px;
+  }
+
+  body {
+    font-size: 15px;
+  }
+
+  .top_nav p {
+    font-size: 16px;
+  }
+
+  .nav-link {
+    font-size: 16px;
+  }
+
+  .ph_num {
+    font-size: 17px;
+  }
+
+  .nav_cntct {
+    gap: 12px;
+  }
+
+  .ban_content {
+    width: 54%;
+    top: 22%;
+  }
+
+  .ban_content h1 {
+    font-size: 38px;
+  }
+
+  .ban_content h1 span {
+    font-size: 7.1rem;
+  }
+
+  .ban_content p,
+  .offer_contents.cmn_hdr p,
+  .featured_content.cmn_hdr p,
+  .cmnty_dtls.cmn_hdr p {
+    font-size: 17.5px;
+  }
+
+  .spot {
+    height: 340px;
+    margin-top: -136px;
+    margin-bottom: -134px;
+  }
+
+  .spt_wrpr {
+    width: 240px;
+    top: 92px;
+  }
+
+  .curve_txt {
+    width: 240px;
+    height: 148px;
+    top: -52px;
+  }
+
+  .curve_txt text {
+    font-size: 16px;
+  }
+
+  .spt_rnd_otr {
+    width: 128px;
+    height: 128px;
+  }
+
+  .spt_rnd_img {
+    width: 98px;
+    height: 98px;
+  }
+
+  .spt_rnd_img img {
+    width: 54px;
+  }
+
+  .offer {
+    height: 508px;
+  }
+
+  .offr_card {
+    gap: 24px;
+    padding: 14px 5px;
+  }
+
+  .offr_crd_dtls.cmn_hdr p {
+    font-size: 18px;
+  }
+
+  .fetr_crd_img {
+    height: 220px;
+  }
+
+  .fetr_crd_dtls {
+    min-height: 156px;
+    padding: 16px 12px;
+  }
+
+  .fetr_crd_dtls.cmn_hdr p,
+  .prps_crd p {
+    font-size: 16.5px;
+  }
+
+  .community .container {
+    height: 276px;
+  }
+
+  .community.cmn_pdding {
+    margin-bottom: 80px;
+  }
+
+  .purpose {
+    height: 660px;
+  }
+
+  .purpose_contents {
+    padding-top: 300px;
+  }
+
+  .wtr_brl_img {
+    width: 440px;
+    top: -100px;
+  }
+
+  .purpose_rgt_img {
+    max-width: 380px;
+  }
+
+  .bottle_img {
+    width: 200px;
+    left: -100px;
+  }
+
+  .hyd_bking {
+    height: 520px;
+    margin-bottom: -88px;
+  }
+
+  .hyd_img {
+    width: 380px;
+    height: 400px;
+  }
+
+  .sp_crd {
+    width: 400px;
+    height: 348px;
+    top: 128px;
+    padding: 36px 26px;
+  }
+
+  .sp_crd span {
+    font-size: 38px;
+  }
+
+  .sp_crd span:nth-of-type(2) {
+    font-size: 18px;
+  }
+
+  .sp_crd_top {
+    top: 88px;
+    right: 8px;
+  }
+
+  .sp_crd_top p {
+    font-size: 68px;
+  }
+
+  .sp_btns {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  /* .footer {
+    height: 380px;
+  } */
+
+  .footer .ftr_trl {
+    width: 272px;
+    height: 280px;
+  }
+
+  .ftr_hd h5 {
+    font-size: 19px;
+  }
+
+  .ftr_dv p,
+  .ftr_dv li a,
+  .ftr_bttm a,
+  .ftr_bttm p {
+    font-size: 17px;
+  }
+
+  .cust_rvew {
+    height: 340px;
+  }
+
+  .cust_main {
+    gap: 12px;
+  }
+
+  .review_card {
+    width: 260px;
+    padding: 24px 16px;
+  }
+
+  .user_info h4 {
+    font-size: 21px;
+  }
+
+  .review_card h5 {
+    font-size: 18px;
+  }
+
+  .review_card p {
+    font-size: 16px;
+  }
+}
+
+/*** ==================<<<<<>>>>>================== ***/
+
+@media (max-width: 768px) {
+  .offr_swpr{
+    display: block;
+    width: 100%;
+  }
+  .offr_crd_layout{
+    display: none;
+  }
+
+  .cmn_hdr h3 {
+    font-size: 38px;
+  }
+
+  .cmn_hdr h4 {
+    font-size: 21px;
+  }
+
+  .cmn_hdr p {
+    font-size: 18px;
+  }
+
+  .cmn_btn {
+    font-size: 18px;
+    padding: 12px 16px;
+  }
+
+  /* Customer Review: stack columns from tablet */
+  .cust_rvew {
+    height: auto;
+  }
+
+  .cust_main {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 25px;
+  }
+
+  .cust_lft_dv,
+  .cust_rgt_dv {
+    width: 100%;
+  }
+
+  .cust_rgt_dv {
+    position: static;
+  }
+
+  .cust_rgt_dv::after {
+    display: none;
+  }
+
+  .reviewSwiper {
+    padding: 20px 0;
+  }
+
+  .review_card {
+    width: 100%;
+  }
+
+  .review_card p {
+    width: 100%;
+  }
+
+  .user_info h4 {
+    font-size: 26px;
+  }
+
+  .review_card h5 {
+    font-size: 20px;
+  }
+
+  .review_card p {
+    font-size: 18px;
+  }
+
+  .top_nav p {
+    font-size: 15px;
+  }
+
+  .nav-link {
+    font-size: 16px;
+  }
+
+  .sp_crd span {
+    font-size: 42px;
+  }
+
+  .sp_crd span:nth-of-type(2) {
+    font-size: 21px;
+  }
+
+  .sp_crd_top p {
+    font-size: 76px;
+  }
+}
+
+/*** ==================<<<<<>>>>>================== ***/
+
+@media (max-width: 767px) {
+
+  /* Responsive NavBar */
+
+  header .navbar {
+    position: relative;
+  }
+
+  header .navbar-toggler {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 15px;
+    right: auto;
+    border: none;
+    padding: 6px 10px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    z-index: 50;
+  }
+
+  header .navbar-toggler:focus {
+    box-shadow: none;
+    outline: none;
+    border: none;
+  }
+
+  .MenuBar {
+    font-size: 20px;
+    display: inline-block;
+    fill: #fff;
+  }
+
+  header .navbar-toggler .menu_text {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1;
+    color: #041935;
+  }
+
+  /* Center logo (existing absolute) and reduce size for mobile */
+  header .logo_otr {
+    width: 110px;
+    height: 110px;
+  }
+
+  header .logo_area {
+    width: 95px;
+  }
+
+  /* Right side: show only phone number */
+  header .nav_cntct {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    gap: 0;
+    z-index: 50;
+  }
+
+  header .nav_cntct .nav_buttn {
+    display: none;
+  }
+
+  header .nav_cntct .ph_icn_otr {
+    display: none;
+  }
+
+  header .nav_cntct .ph_num {
+    font-size: 18px;
+    white-space: nowrap;
+  }
+
+  header .navbar-collapse {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    background: #ffffff;
+    border-top: 1px solid rgba(4, 25, 53, 0.08);
+    z-index: 40;
+  }
+
+  header .navMenus {
+    padding: 20px 0;
+    gap: 0;
+  }
+
+  /* Responsive NavBar End*/
+
+  /* Banner text/layout */
+  .ban_content {
+    position: static;
+    width: 100%;
+    padding: 30px 0 0;
+    text-align: center;
+  }
+
+  .ban_content h1 {
+    font-size: 44px;
+  }
+
+  .ban_content h1 span {
+    font-size: 70px;
+  }
+
+  .ban_content p {
+    font-size: 18px;
+  }
+
+  /* Common typography on mobile */
+  .cmn_hdr h3 {
+    font-size: 34px;
+  }
+
+  .cmn_hdr h4 {
+    font-size: 20px;
+  }
+
+  .cmn_hdr h6 {
+    font-size: 18px;
+  }
+
+  .cmn_hdr p {
+    font-size: 17px;
+  }
+
+  .cmn_btn {
+    font-size: 17px;
+  }
+
+  /* Purpose section: column on mobile */
+  .purpose {
+    height: auto;
+    background-size: cover;
+  }
+
+  .purpose_contents {
+    flex-direction: column;
+    padding-top: 60px;
+    gap: 30px;
+  }
+
+  .prps_layout {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .prps_lft_dv,
+  .prps_rgt_dv {
+    width: 100%;
+  }
+
+  .purpose_rgt_img {
+    width: 100%;
+  }
+
+  .wtr_brl_img,
+  .bottle_img {
+    display: none;
+  }
+
+  .prps_crd {
+    width: 100%;
+  }
+
+  /* About section: stack */
+  .abt_sec {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .abt_us_lft,
+  .abt_us_rgt {
+    width: 100%;
+  }
+
+  /* Footer: stack columns */
+  .footer {
+    height: auto;
+  }
+
+  .ftr_rw {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+  }
+
+  .ftr_rw .ftr_dv,
+  .ftr_rw .ftr_rgt {
+    width: 100%;
+    border: none;
+  }
+
+  .ftr_rw .ftr_rgt {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .ftr_rgt .ftr_dv {
+    width: 100% !important;
+    padding-block: 20px;
+    border: none;
+  }
+
+  .footer .ftr_trl {
+    display: none;
+  }
+
+  .ftr_hd h5 {
+    font-size: 20px;
+  }
+
+  .ftr_dv p,
+  .ftr_dv li a,
+  .ftr_bttm a,
+  .ftr_bttm p {
+    font-size: 16px;
+  }
+
+  body {
+    font-size: 15px;
+  }
+
+  .google_post span,
+  .star_row .star,
+  .star_row span {
+    font-size: 15px;
+  }
+
+  .ftr_lst_dv .op_tm {
+    font-size: 15px;
+  }
+}
+
+/*** ==================<<<<<>>>>>================== ***/
+
+@media (max-width: 667px) {
+  /* Mobile banner image from 667 and below */
+  .ban_img {
+    display: none;
+  }
+
+  .mobile_ban_img {
+    display: block;
+  }
+
+  .mobile_ban_img img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .ban_content {
+    padding-top: 20px;
+  }
+
+  .ban_content h1 {
+    font-size: 38px;
+  }
+
+  .ban_content h1 span {
+    font-size: 60px;
+  }
+
+  .cmn_hdr h3 {
+    font-size: 32px;
+  }
+
+  .cmn_hdr p {
+    font-size: 16px;
+  }
+
+  .cmn_btn {
+    font-size: 16px;
+  }
+
+  body {
+    font-size: 14.5px;
+  }
+}
+
+/*** ==================<<<<<>>>>>================== ***/
+
+@media (max-width: 575px) {
+  html {
+    font-size: 40%;
+  }
+
+  header .logo_otr {
+    width: 100px;
+    height: 100px;
+  }
+
+  header .logo_area {
+    width: 88px;
+  }
+
+  header .navbar-toggler .menu_text {
+    font-size: 16px;
+  }
+
+  header .nav_cntct .ph_num {
+    font-size: 16px;
+  }
+
+  .ban_content h1 {
+    font-size: 34px;
+  }
+
+  .ban_content h1 span {
+    font-size: 54px;
+  }
+
+  .cmn_hdr h3 {
+    font-size: 30px;
+  }
+
+  .cmn_hdr h4 {
+    font-size: 19px;
+  }
+
+  .cmn_hdr p {
+    font-size: 15px;
+  }
+
+  .cmn_btn {
+    font-size: 15px;
+    padding: 10px 14px;
+  }
+
+  body {
+    font-size: 14px;
+  }
+}
+
+/*** ==================<<<<<>>>>>================== ***/
+
+@media (max-width: 480px) {
+  .ban_content h1 {
+    font-size: 28px;
+  }
+
+  .ban_content h1 span {
+    font-size: 44px;
+  }
+
+  .cmn_hdr h3 {
+    font-size: 28px;
+  }
+
+  .cmn_hdr p {
+    font-size: 14px;
+  }
+
+  .cmn_btn {
+    font-size: 14px;
+  }
+}
+
+/*** ==================<<<<<>>>>>================== ***/
+
+@media (max-width: 393px) {
+  .ban_content h1 {
+    font-size: 30px;
+  }
+
+  .ban_content h1 span {
+    font-size: 48px;
+  }
+
+  header .navbar-toggler .menu_text {
+    font-size: 15px;
+  }
+
+  header .nav_cntct .ph_num {
+    font-size: 15px;
+  }
+
+  .cmn_hdr h3 {
+    font-size: 26px;
+  }
+
+  .cmn_hdr p {
+    font-size: 13.5px;
+  }
+}
+
+/*** ==================<<<<<>>>>>================== ***/
+
+@media (max-width: 375px) {
+  .ban_content h1 {
+    font-size: 26px;
+  }
+
+  .ban_content h1 span {
+    font-size: 42px;
+  }
+
+  .cmn_hdr h3 {
+    font-size: 25px;
+  }
+
+  .cmn_hdr p {
+    font-size: 13px;
+  }
+}
+
+/*** ==================<<<<<>>>>>================== ***/
+
+@media (max-width: 360px) {
+  .ban_content h1 {
+    font-size: 25px;
+  }
+
+  .ban_content h1 span {
+    font-size: 40px;
+  }
+
+  header .navbar-toggler {
+    left: 10px;
+  }
+
+  header .nav_cntct {
+    right: 10px;
+  }
+
+  .cmn_hdr h3 {
+    font-size: 24px;
+  }
+}
+
+/*** ==================<<<<<>>>>>================== ***/
