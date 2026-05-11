@@ -18,7 +18,7 @@
   }
 
   .cmn_hdr h4 {
-    font-size: 26px;
+    font-size: 30px;
   }
 
   .cmn_hdr h6 {
@@ -206,8 +206,8 @@
 
   .sp_btns .cmn_btn {
     font-size: 22px;
-    padding: 13px 14px;
-}
+    padding: 8px 14px;
+  }
 
   /* .footer {
     height: 592px;
@@ -258,15 +258,6 @@
 .ftr_lg {
   width: 160px;
 }
-.ftr_rw .ftr_rgt {
-  width: 66%;
-}
-.ftr_rgt .ftr_dv {
-  padding-block: 65px;
-}
-.ftr_dv p {
-  padding-top: 25px;
-}
 }
 
 /*** ==================<<<<<>>>>>================== ***/
@@ -289,8 +280,8 @@
   }
 
   .cmn_hdr h4 {
-    font-size: 23px;
-}
+    font-size: 25px;
+  }
 
   .cmn_hdr h6 {
     font-size: 20px;
@@ -382,8 +373,8 @@
   }
 
   .offer {
-    height: 780px;
-}
+    height: 718px;
+  }
 
   .offr_card {
     gap: 52px;
@@ -413,12 +404,12 @@
   }
 
   .community.cmn_pdding {
-    margin-bottom: 87px;
-}
+    margin-bottom: 118px;
+  }
 
-.purpose {
-  height: 1050px;
-}
+  .purpose {
+    height: 948px;
+  }
 
   .purpose_contents {
     padding-top: 456px;
@@ -452,11 +443,12 @@
   }
 
   .sp_crd {
-    width: 700px;
+    width: 662px;
     height: 572px;
-    top: 200px;
+    top: 210px;
     padding: 76px 60px;
-}
+  }
+
   .sp_crd span {
     font-size: 56px;
   }
@@ -479,8 +471,8 @@
   }
 
   .ftr_rgt .ftr_dv {
-    padding-block: 48px;
-}
+    padding-block: 64px;
+  }
 
   .cust_rvew {
     height: 472px;
@@ -492,12 +484,12 @@
   }
 
   .user_img_lg {
-    width: 80px;
-    height: 80px;
-}
+    width: 88px;
+    height: 88px;
+  }
 
   .user_info h4 {
-    font-size: 27px;
+    font-size: 28px;
   }
 
   .review_card h5 {
@@ -507,30 +499,6 @@
   .review_card p {
     font-size: 18.5px;
   }
-  .google_lg {
-    width: 110px;
-}
-.star_row .star {
-  font-size: 15px;
-}
-.star_row .rating {
-  gap: 3px;
-}
-.cust_rgt_dv {
-  width: 68%;
-}
-.ftr_lg {
-  width: 140px;
-}
-.ftr_dv p, .ftr_dv li a, .ftr_bttm a, .ftr_bttm p {
-  font-size: 17px;
-}
-.ftr_rgt .ftr_dv:nth-child(1) {
-  width: 21%;
-}
-.ftr_rw .ftr_dv:nth-child(3){
-  width: 34%;
-}
 }
 
 /*** ==================<<<<<>>>>>================== ***/
@@ -561,7 +529,7 @@
   }
 
   .cmn_hdr p {
-    font-size: 16px;
+    font-size: 20px;
   }
 
   .cmn_btn,
@@ -603,9 +571,12 @@
     font-size: 9.8rem;
   }
 
-  .ban_content p, .offer_contents.cmn_hdr p, .featured_content.cmn_hdr p, .cmnty_dtls.cmn_hdr p {
-    font-size: 18px;
-}
+  .ban_content p,
+  .offer_contents.cmn_hdr p,
+  .featured_content.cmn_hdr p,
+  .cmnty_dtls.cmn_hdr p {
+    font-size: 20px;
+  }
 
   .spot {
     height: 448px;
@@ -630,9 +601,9 @@
   }
 
   .spt_rnd_otr {
-    width: 135px;
-    height: 135px;
-}
+    width: 146px;
+    height: 146px;
+  }
 
   .spt_rnd_img {
     width: 112px;
@@ -644,16 +615,16 @@
   }
 
   .offer {
-    height: 730px;
-}
+    height: 668px;
+  }
 
   .offr_card {
     gap: 44px;
   }
 
   .fetr_crd_img {
-    height: 240px;
-}
+    height: 282px;
+  }
 
   .fetr_crd_dtls {
     min-height: 182px;
@@ -664,22 +635,19 @@
   .prps_crd p {
     font-size: 18px;
   }
-  .fetr_crd_dtls.cmn_hdr p {
-    padding-bottom: 0;
-    height: 73px;
-    overflow-y: auto;
-}
 
   .community .container {
     height: 348px;
   }
 
   .community.cmn_pdding {
-    margin-bottom: 75px;
-}
-.purpose {
-  height: 980px;
-}
+    margin-bottom: 108px;
+  }
+
+  .purpose {
+    height: 880px;
+  }
+
   .purpose_contents {
     padding-top: 424px;
   }
@@ -705,25 +673,26 @@
     width: 652px;
     height: 688px;
   }
+
   .sp_crd {
-    width: 654px;
+    width: 608px;
     height: 526px;
     top: 196px;
     padding: 68px 52px;
-}
+  }
 
   .sp_crd span {
     font-size: 52px;
   }
 
   .sp_crd span:nth-of-type(2) {
-    font-size: 23px;
-}
+    font-size: 25px;
+  }
 
-.sp_crd_top {
-  top: 125px;
-  right: 42px;
-}
+  .sp_crd_top {
+    top: 136px;
+    right: 18px;
+  }
 
   .sp_crd_top p {
     font-size: 96px;
@@ -743,15 +712,12 @@
   }
 
   .ftr_rgt .ftr_dv {
-    padding-block: 30px;
-}
-.ftr_rw .ftr_dv:nth-child(3) {
-  width: 37%;
-}
+    padding-block: 56px;
+  }
 
   .cust_rvew {
-    height: 500px;
-}
+    height: 442px;
+  }
 
   .review_card {
     width: 328px;
@@ -768,51 +734,7 @@
 
   .review_card p {
     font-size: 18px;
-    min-height: 172px;
-}
-  .spot_lft_img, .spot_rgt_img {
-    width: 17.3rem;
-}
-.offr_lng_line {
-  height: 50px;
-}
-.crcl_after {
-  width: 105px;
-  height: 105px;
-}
-.offr_crd_img {
-  width: 54px;
-}
-.cmn_hdr h4 {
-  font-size: 22px;
-}
-.prps_rgt_dv {
-  width: 42%;
-}
-.hyd_lft_img {
-  bottom: 23px;
-}
-.sp_crd_top span {
-  width: 67px;
-}
-.ftr_dv p, .ftr_dv li a, .ftr_bttm a, .ftr_bttm p {
-  font-size: 16px;
-}
-.ftr_lg {
-  width: 125px;
-}
-.ftr_dv p {
-  padding-bottom: 30px;
-  padding-top: 20px;
-}
-.ftr_ic {
-  width: 30px;
-  height: 30px;
-}
-.ftr_lst_dv .op_tm {
-  line-height: 1.3;
-  padding-block: 0;
-}
+  }
 }
 
 /*** ==================<<<<<>>>>>================== ***/
@@ -820,7 +742,6 @@
 @media (max-width: 1199px) {
   .container {
     max-width: 100%;
-    padding-inline: 15px;
   }
 
   html {
