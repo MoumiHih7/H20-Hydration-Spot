@@ -763,9 +763,9 @@ background: #fff;
     justify-content: center;
     align-items: center;
 }
-.cmnty_dtls .cmn_blu_bg{
-    justify-content: center;
-    padding-bottom: 10px;
+.cmnty_dtls .cmn_blu_bg {
+  justify-content: center;
+  padding-bottom: 17px;
 }
 .cmnty_dtls.cmn_hdr h3,
 .cmnty_dtls.cmn_hdr p {
