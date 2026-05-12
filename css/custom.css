@@ -1771,3 +1771,340 @@ header .navbar-nav {
     color: #fff;
     border: 2px solid #fff;
 }
+
+/* Avik 11.05.26 */
+/*======== product details spot section======== */
+
+.spot.pdt_dt_spot {
+  margin-top: 0;
+  z-index: 20;
+  margin-bottom: 30px;
+  height: 322px;
+}
+.spot.pdt_dt_spot::after {
+  position: absolute;
+  content: "";
+  background-image: url(/images/background_curve.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+  bottom: -22px;
+  right: 0;
+  left: 0;
+}
+.pdt_dt_spot .spot_lft_img {
+  width: 90px;
+}
+.pdt_dt_spot .spot_rgt_img {
+  width: 85px;
+}
+.spot_cntnt {
+  position: relative;
+  z-index: 40;
+  text-align: center;
+  top: -145px;
+}
+.spot_cntnt .breadcrumb {
+  display: flex;
+  justify-content: center;
+}
+.spot_cntnt .breadcrumb-item a {
+  font-size: 26px;
+  font-family: "Gantari", sans-serif;
+  font-weight: 400;
+  color: #212121;
+}
+.spot_cntnt .breadcrumb-item.active {
+  opacity: 0.7;
+  font-size: 26px;
+  font-family: "Gantari", sans-serif;
+  font-weight: 400;
+  color: #212121;
+}
+/*======== product details section======== */
+.prdt_inr_sec {
+  display: flex;
+  align-items: start;
+  gap: 60px;
+  padding-bottom: 60px;
+  border-bottom: 2px solid #9f9f9f;
+}
+.prdt_dtls_lft {
+  width: 41%;
+}
+.prdt_top_img {
+  width: 636px;
+  padding-right: 35px;
+  border: 1px solid #000000;
+  border-radius: 30px;
+  overflow: hidden;
+  background-color: #eaeaea;
+}
+.prdt_btm_imgs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-block: 20px;
+}
+.prdt_img {
+  display: block;
+  width: 173px;
+}
+.prdt_dtls_rgt {
+  width: 58%;
+}
+.prdt_rgt_cntnt .star_row {
+  display: flex;
+  justify-self: start;
+  align-items: start;
+  padding-bottom: 20px;
+}
+.prdt_rgt_cntnt .star_row .star {
+  color: #282460;
+}
+.prdt_rgt_cntnt .star_row span {
+  font-size: 22px;
+  font-weight: 500;
+  color: #041935;
+}
+.prdt_dtls_rgt h3 {
+  font-size: 48px;
+  font-family: "Inria Sans", sans-serif;
+  font-weight: bold;
+  color: #282828;
+  padding-bottom: 18px;
+}
+.prdt_rgt_cntnt.cmn_hdr h4 {
+  font-family: "Gantari", sans-serif;
+  font-weight: 400;
+  color: #282828;
+  padding-bottom: 18px;
+}
+.prdt_rgt_cntnt .price_sec {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.price_sec .prev_price {
+  font-size: 32px;
+  font-family: "Inria Sans", sans-serif;
+  font-weight: 400;
+  color: #767676;
+}
+.price_sec .crnt_price {
+  font-size: 40px;
+  font-family: "Inria Sans", sans-serif;
+  font-weight: bold;
+  color: #282460;
+}
+.price_sec .sale_sec {
+  font-size: 22px;
+  font-family: "Gantari", sans-serif;
+  font-weight: 500;
+  padding: 10px 38px;
+  border-radius: 10px;
+  color: #041935;
+  background-color: #baecff;
+}
+.prdt_rgt_cntnt p {
+  font-size: 32px;
+  font-family: "Gantari", sans-serif;
+  font-weight: 400;
+  color: #424242;
+  padding-block: 20px;
+}
+.cart_qnty {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid #000000;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+.cart_qnty p {
+  font-size: 32px;
+  font-family: "Gantari", sans-serif;
+  font-weight: 400;
+  color: #424242;
+  padding: 0 10px;
+  border-right: 1px solid #000000;
+  border-left: 1px solid #000000;
+}
+.cart_qnty span {
+  font-size: 16px;
+  padding: 0 20px;
+}
+.prdt_btns {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.prdt_btns .btn_1 a {
+  font-family: "Gantari", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  color: #ffffff;
+  padding: 10px 50px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #282460;
+  border: 3px solid #282460;
+  text-transform: capitalize;
+  border-radius: 15px;
+}
+.prdt_btns .btn_2 a {
+  font-family: "Gantari", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  color: #ffffff;
+  padding: 10px 50px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #29a7dd;
+  border: 3px solid #29a7dd;
+  text-transform: capitalize;
+  border-radius: 15px;
+}
+.rgt_btm_imgs {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding-top: 30px;
+}
+.prdt_rgt_img {
+  display: block;
+  width: 117px;
+  padding-bottom: 10px;
+}
+.rgt_btm_imgs span {
+  font-family: "Gantari", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  color: #424242;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.prdt_ing_hd {
+  padding-bottom: 20px;
+}
+.prdt_ing_hd span {
+  font-family: "Inria Sans", sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  color: #212121;
+  padding-bottom: 10px;
+}
+.prdt_ing_hl .ing_1,
+.prdt_ing_hl .ing_2,
+.prdt_ing_hl .ing_3 {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #9f9f9f;
+  display: flex;
+  align-items: center;
+}
+.prdt_ing_hl .ing_3 {
+  border-bottom: none;
+}
+.prdt_ing_hl .ing_1 p,
+.prdt_ing_hl .ing_2 p,
+.prdt_ing_hl .ing_3 p {
+  width: 40%;
+  font-family: "Gantari", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: #041935;
+}
+.prdt_ing_hl .ing_1 span,
+.prdt_ing_hl .ing_2 span,
+.prdt_ing_hl .ing_3 span {
+  font-size: 22px;
+  font-family: "Gantari", sans-serif;
+  font-weight: 400;
+  color: #686868;
+}
+
+/* =====product description section===== */
+
+.prdt_tab_sec {
+  padding: 40px 0 70px;
+}
+.prdt_tab_sec .tab_cntnr {
+  border-bottom: 1px solid #9f9f9f;
+}
+.prdt_tab_sec .tab_btns {
+  display: inline-flex;
+  align-items: center;
+  background: #ddf6ff;
+  border-radius: 61px;
+  padding: 6px 18px;
+  gap: 8px;
+  margin-bottom: 40px;
+}
+.tab_btn {
+  border: none;
+  background: transparent;
+  padding: 8px 45px;
+  border-radius: 71px;
+  font-size: 28px;
+  font-weight: 400;
+  cursor: pointer;
+  color: #212121;
+  transition: 0.3s;
+  font-family: "Inria Sans", sans-serif;
+}
+.tab_btn.active {
+  background: #ffffff;
+  font-weight: bold;
+}
+.tab_content {
+  width: 66%;
+}
+.prdt_tab_sec .tab_content .tab_hd,
+.benefits_title {
+  font-size: 36px;
+  font-family: "Inria Sans", sans-serif;
+  font-weight: bold;
+  color: #212121;
+  margin-bottom: 20px;
+}
+.prdt_tab_sec .benefits_title {
+  margin-top: 40px;
+}
+.prdt_tab_sec .tab_content p {
+  font-family: "Gantari", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #4d4d4d;
+  margin-bottom: 18px;
+}
+.prdt_tab_sec .benefits_list {
+  padding-left: 20px;
+  list-style: disc;
+  padding-bottom: 60px;
+}
+.benefits_list li {
+  margin-bottom: 10px;
+  font-family: "Gantari", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #4d4d4d;
+}
+.benefits_list li::marker {
+  color: #40b340;
+}
+.purpose::before{
+  content:"";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background: url("../images/porpose_top_desk.png");
+  display: none;
+}
