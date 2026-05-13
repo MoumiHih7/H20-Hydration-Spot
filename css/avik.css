@@ -1,0 +1,135 @@
+/*======== Avik 12.05.26 =======*/
+.rlt_prdt_sec {
+  position: relative;
+  height: 780px;
+}
+
+.rlt_prdt_sec .fetr_prdct_crd {
+  width: 457px;
+}
+
+.productSwiper {
+  position: absolute;
+  width: 91%;
+  right: 0;
+}
+
+.rlt_prdt_hd {
+  display: block;
+  font-size: 36px;
+  font-family: "Inria Sans", sans-serif;
+  font-weight: bold;
+  color: #212121;
+  margin-bottom: 20px;
+}
+
+.rlt_prdt_sec .pls_icn {
+  font-size: 18px;
+  padding-right: 20px;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+  content: ">";
+  font-family: "Font Awesome 6 Free";
+  font-size: 22px;
+  font-weight: 700;
+  color: #1d1b20;
+  margin-inline: 10px;
+  padding-top: 4px;
+}
+
+/* change css */
+.prdt_rgt_cntnt .star_row {
+  padding-bottom: 10px !important;
+}
+
+.prdt_dtls_rgt h3 {
+  padding-bottom: 10px !important;
+}
+
+.prdt_rgt_cntnt.cmn_hdr h4 {
+  padding-bottom: 15px !important;
+}
+
+.prdt_rgt_cntnt p {
+  padding-top: 12px !important;
+  padding-bottom: 22px !important;
+}
+
+.cart_qnty {
+  height: 50px !important;
+  margin-bottom: 30px !important;
+}
+
+.cart_qnty p {
+  padding-block: 0 !important;
+  padding-inline: 20px !important;
+}
+
+.prdt_btns .btn_1 span {
+  font-size: 18px;
+}
+
+.prdt_ing_hl .ing_1,
+.prdt_ing_hl .ing_2,
+.prdt_ing_hl .ing_3 {
+  padding-top: 10px !important;
+}
+
+.prdt_inr_sec {
+  padding-bottom: 70px !important;
+}
+
+.prdt_tab_sec {
+  padding: 40px 0 45px !important;
+}
+
+.prdt_btm_imgs {
+  padding-block: 25px !important;
+}
+
+.prdt_ing_hd {
+  padding-bottom: 10px !important;
+}
+
+.price_sec .prev_price {
+  text-decoration: line-through;
+}
+
+.prdt_top_img {
+  position: relative;
+}
+
+.srch_dv {
+  position: absolute;
+  font-size: 25px;
+  top: 35px;
+  right: 35px;
+  padding: 20px 24px;
+  background: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart_qnty span {
+  cursor: pointer;
+}
+
+.rlt_prdt_sec::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 250px;
+  height: 100%;
+  z-index: 5;
+  pointer-events: none;
+  background: linear-gradient(to left, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.cart_qnty span {
+  color: #424242;
+  padding: 14px 20px !important;
+}
