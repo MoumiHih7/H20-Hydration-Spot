@@ -70,17 +70,24 @@ var swiper = new Swiper(".featr_swpr .mySwiper", {
     centeredSlides: true,
     slidesPerView: 3.9,
     spaceBetween: 20,
-    // autoplay: {
-    //     delay: 1000,
-    //     disableOnInteraction: true,
-    // },
+    autoplay: {
+        delay: 1000,
+        disableOnInteraction: true,
+    },
     speed: 1500,
     breakpoints: {
         0: {
-            slidesPerView: 1,
+            slidesPerView: 1.3,
+            gap: 10,
         },
-
-        768: {
+        481:{
+            slidesPerView: 1.9,
+            gap: 10,
+        },
+668:{
+    slidesPerView: 2.7,
+},
+        990: {
             slidesPerView: 3.2,
         },
 
@@ -114,28 +121,51 @@ document.addEventListener("DOMContentLoaded", function () {
         slidesPerView: 3,
         spaceBetween: 120,
         loop: true,
-
+      
         speed: 3000,
 
-        // autoplay: {
-        //     delay: 0,
-        //     disableOnInteraction: false,
-        // },
+        autoplay: {
+            delay: 0,
+            disableOnInteraction: false,
+        },
 
-        freeMode: true,
-        freeModeMomentum: false,
+        // freeMode: true,
+        // freeModeMomentum: false,
 
-        allowTouchMove: false,
+        // allowTouchMove: false,
 
         breakpoints: {
             0: {
-                slidesPerView: 1,
+                slidesPerView: 1.3,
+                gap: 10,
+                spaceBetween: 10,
+                centeredSlides: true,
             },
-
+        376: {
+                slidesPerView: 1.5,
+                gap: 10,
+                spaceBetween: 10,
+                centeredSlides: true,
+            },
+            481:{
+                slidesPerView: 1.9,
+                gap: 10,
+                centeredSlides: true,
+                spaceBetween: 15,
+            },
+            576:{
+                slidesPerView: 2.2,  
+                centeredSlides: false,
+            },
+    668:{
+        slidesPerView: 2.7,
+    },
             768: {
-                slidesPerView: 2.3,
+                slidesPerView: 2.9,
             },
-
+840:{
+    slidesPerView: 2.3,
+},
             1200: {
                 slidesPerView: 3,
                 gap: 140,
@@ -155,10 +185,10 @@ var swiper = new Swiper(".offr_swpr .mySwiper1", {
     spaceBetween: 26,
     speed: 800,
     
-    // autoplay: {
-    //     delay: 2500,
-    //     disableOnInteraction: false,
-    // },
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
 
     breakpoints: {
         480: {
@@ -175,9 +205,54 @@ var swiper = new Swiper(".offr_swpr .mySwiper1", {
 });
 
 
+// =======================<<<<<>>>>>=======================
+// avik 12.05.26
+// =======================<<<<<Related Product Swiper>>>>>=======================
 
+document.addEventListener("DOMContentLoaded", function () {
 
+    var swiper = new Swiper(".productSwiper", {
+        loop: true,
+        slidesPerView: 3.5,
+        spaceBetween: 10,
+        speed: 4000,
 
+        allowTouchMove: false,
 
+        autoplay: {
+            delay: 1,
+            disableOnInteraction: false,
+        },
+    });
+});
 
+// =======================<<<<<Product Describe Tab JS>>>>>=======================
 
+const tabButtons = document.querySelectorAll(".tab_btn");
+const tabContents = document.querySelectorAll(".tab_content");
+
+tabButtons.forEach((button, index) => {
+    button.addEventListener("click", () => {
+
+        // Remove active class from all buttons
+        tabButtons.forEach((btn) => {
+            btn.classList.remove("active");
+        });
+
+        // Hide all tab contents
+        tabContents.forEach((content) => {
+            content.style.display = "none";
+        });
+
+        // Add active class to clicked button
+        button.classList.add("active");
+
+        // Show current tab content
+        tabContents[index].style.display = "block";
+    });
+});
+
+// Show first tab content by default
+tabContents.forEach((content, index) => {
+    content.style.display = index === 0 ? "block" : "none";
+});
