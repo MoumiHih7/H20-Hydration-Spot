@@ -667,7 +667,6 @@ header .navbar-nav {
   display: flex;
   justify-content: space-between;
 }
-
 .offr_card {
   width: 19.5%;
   display: flex;
@@ -677,6 +676,7 @@ header .navbar-nav {
   padding: 20px 6px;
   border-radius: 20px;
   gap: 82px;
+  background: #fff;
 }
 .offr_crd_dtls.cmn_hdr h4 {
   text-align: center;
@@ -1575,12 +1575,12 @@ header .navbar-nav {
 .feature_prdct .dropdown-menu li:nth-last-child(1) {
     border-bottom: none;
 }
-
 .fetr_prdct_layout {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 76px;
-    padding-bottom: 54px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 54px;
+  justify-content: space-between;
+  row-gap: 5rem;
 }
 
 .fetr_prdct_img {
@@ -1669,15 +1669,16 @@ header .navbar-nav {
 }
 
 .add_crt {
-    width: 100%;
-    background: #272360;
-    border-bottom-left-radius: 19px;
-    border-bottom-right-radius: 19px;
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
+  width: 100%;
+  background: #272360;
+  border-bottom-left-radius: 19px;
+  border-bottom-right-radius: 19px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  cursor: pointer;
 }
 
 .add_crt.cmn_hdr p {
@@ -1777,7 +1778,7 @@ header .navbar-nav {
 
 .spot.pdt_dt_spot {
   margin-top: 0;
-  z-index: 20;
+  z-index: 1;
   margin-bottom: 30px;
   height: 322px;
 }
@@ -1836,7 +1837,7 @@ header .navbar-nav {
 }
 .prdt_top_img {
   width: 636px;
-  padding-right: 35px;
+  /* padding-right: 35px; */
   border: 1px solid #000000;
   border-radius: 30px;
   overflow: hidden;
@@ -1852,6 +1853,7 @@ header .navbar-nav {
 .prdt_img {
   display: block;
   width: 173px;
+  height: 100%;
 }
 .prdt_dtls_rgt {
   width: 58%;
@@ -2109,3 +2111,21 @@ header .navbar-nav {
   display: none;
 }
 /* Avik */
+/* moumi */
+.fetr_prdct_otr{
+  padding: 2px 8px;
+}
+.mob.bnr_btl_prt{
+  display: none;
+}
+.prdt_btm_imgs .prdt_thumb{
+  border: 1px solid black;
+  border-radius: 10px;
+      cursor: pointer;
+  transition: outline-color 0.2s ease, transform 0.2s ease;
+  height: 150px;
+}
+.rgt_btm_imgs .prdt_rgt_img{
+  border: 1px solid black;
+  border-radius: 10px;
+}

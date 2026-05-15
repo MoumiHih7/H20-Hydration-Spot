@@ -7,7 +7,7 @@
   <title>H2O Hydration Spot</title>
   <meta name="description" content="" />
   <meta name="author" content="admin" />
-  <meta name="viewport" content="width=device-width; initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="shortcut icon" href="images/favicon.ico" alt="" />
   <link rel="stylesheet" href="css/font-awesome.css" />
   <link rel="stylesheet" href="css/aos.css" />
@@ -33,13 +33,33 @@
     <div class="btm_nav">
       <div class="container">
         <div class="cus_nav_innr">
+          <div class="logo_otr">
+            <div class="logo_area">
+              <a href="index.html"><img src="./images/logo.png" alt="logo" /></a>
+            </div>
+          </div>
+
           <div class="nav_area">
-            <nav class="navbar navbar-expand-lg">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <nav class="navbar navbar-expand-md">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
                 <span class="MenuBar">
-                  <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24">
-                    <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 -960 960 960"
+                    width="24"
+                  >
+                    <path
+                      d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+                    />
                   </svg>
                 </span>
                 <span class="menu_text">Menu</span>
@@ -49,36 +69,32 @@
                 <div class="collapse navbar-collapse main_nav" id="navbarNav">
                   <ul class="navbar-nav navMenus">
                     <li class="nav-item">
-                      <a class="nav-link active" href="javascript:void(0);">Home
-                      </a>
+                      <a class="nav-link active" href="index.html">Home </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="javascript:void(0);">
-                        Our Water
-                      </a>
+                      <a class="nav-link" href="javascript:void(0);"> About Us </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="javascript:void(0);">
-                        Why Aluminum
-                      </a>
+                      <a class="nav-link" href="javascript:void(0);"> Our Store </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="javascript:void(0);">H2O Wellness
-                      </a>
+                      <a class="nav-link" href="javascript:void(0);">Community </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="javascript:void(0);">Blog</a>
+                      <a class="nav-link" href="javascript:void(0);">Our Bottle Brand</a>
                     </li>
                   </ul>
                 </div>
                 <div class="nav_cntct">
                   <a href="tel:(520) 222-6172" class="cntc_num">
-                    <span class="ph_icn_otr"><span class="ph_icn"><i class="fa fa-phone"
-                          aria-hidden="true"></i></span></span>
+                    <span class="ph_icn_otr"
+                      ><span class="ph_icn"><i class="fa fa-phone" aria-hidden="true"></i></span
+                    ></span>
                     <span class="ph_num">(520) 222-6172</span>
                   </a>
                   <div class="nav_buttn">
-                    <a href="javascript:void(0)" class="cmn_btn blu_btn">Water Refilling Now
+                    <a href="javascript:void(0)" class="cmn_btn blu_btn"
+                      >Water Refilling Now
                       <img src="./images/btn_wht_drp.png" class="wht_drop" alt="btn_wtr_drp" />
                     </a>
                   </div>
@@ -126,17 +142,25 @@
         <!-- Left Section -->
         <div class="prdt_dtls_lft">
           <div class="prdt_top_img">
-            <img src="images/prdt_top_img.png" alt="product top image">
-            <div class="srch_dv">
+            <img src="images/prdt_top_img.png" class="prdt_main_img" alt="product top image" id="prdtMainImg">
+            <div class="srch_dv prdt_zoom_btn" role="button" tabindex="0" aria-label="Zoom product image">
               <span><i class="fa-solid fa-magnifying-glass-plus"></i></span>
             </div>
           </div>
 
           <div class="prdt_btm_imgs">
-            <span><img src="images/prdt_btm_1.png" class="prdt_img" alt="bottom image 1"></span>
-            <span><img src="images/prdt_btm_2.png" class="prdt_img" alt="bottom image 2"></span>
-            <span><img src="images/prdt_btm_3.png" class="prdt_img" alt="bottom image 3"></span>
-            <span><img src="images/prdt_btm_4.png" class="prdt_img" alt="bottom image 4"></span>
+            <span class="prdt_thumb is-active" role="button" tabindex="0" data-main-src="images/prdt_top_img.png" aria-label="View product image 1">
+              <img src="images/prdt_btm_1.png" class="prdt_img" alt="bottom image 1">
+            </span>
+            <span class="prdt_thumb" role="button" tabindex="0" data-main-src="images/prdt_btm_2.png" aria-label="View product image 2">
+              <img src="images/prdt_btm_2.png" class="prdt_img" alt="bottom image 2">
+            </span>
+            <span class="prdt_thumb" role="button" tabindex="0" data-main-src="images/prdt_btm_3.png" aria-label="View product image 3">
+              <img src="images/prdt_btm_3.png" class="prdt_img" alt="bottom image 3">
+            </span>
+            <span class="prdt_thumb" role="button" tabindex="0" data-main-src="images/prdt_btm_4.png" aria-label="View product image 4">
+              <img src="images/prdt_btm_4.png" class="prdt_img" alt="bottom image 4">
+            </span>
           </div>
         </div>
 
@@ -193,10 +217,42 @@
           </div>
 
           <div class="rgt_btm_imgs">
-            <span><img src="images/prdt_rgt_img_1.png" class="prdt_rgt_img" alt="bottom image 1">Citrus Salt</span>
-            <span><img src="images/prdt_rgt_img_2.png" class="prdt_rgt_img" alt="bottom image 2">Raspberry Salt</span>
-            <span><img src="images/prdt_rgt_img_3.png" class="prdt_rgt_img" alt="bottom image 3">Orange Salt</span>
-            <span><img src="images/prdt_rgt_img_4.png" class="prdt_rgt_img" alt="bottom image 4">Variety Pack</span>
+            <span class="prdt_variant is-active" role="button" tabindex="0"
+              data-main-src="images/prdt_rgt_img_1.png"
+              data-flavor="Citrus Salt"
+              data-prev-price="$40.27"
+              data-curr-price="$30.80"
+              data-tagline="Clean Hydration. Zero Sugar. Maximum Performance."
+              aria-label="Select Citrus Salt">
+              <img src="images/prdt_rgt_img_1.png" class="prdt_rgt_img" alt="Citrus Salt">Citrus Salt
+            </span>
+            <span class="prdt_variant" role="button" tabindex="0"
+              data-main-src="images/prdt_rgt_img_2.png"
+              data-flavor="Raspberry Salt"
+              data-prev-price="$40.27"
+              data-curr-price="$30.80"
+              data-tagline="Bright raspberry flavor with balanced electrolytes for daily hydration."
+              aria-label="Select Raspberry Salt">
+              <img src="images/prdt_rgt_img_2.png" class="prdt_rgt_img" alt="Raspberry Salt">Raspberry Salt
+            </span>
+            <span class="prdt_variant" role="button" tabindex="0"
+              data-main-src="images/prdt_rgt_img_3.png"
+              data-flavor="Orange Salt"
+              data-prev-price="$40.27"
+              data-curr-price="$30.80"
+              data-tagline="Zesty orange taste—refreshing support for workouts and busy days."
+              aria-label="Select Orange Salt">
+              <img src="images/prdt_rgt_img_3.png" class="prdt_rgt_img" alt="Orange Salt">Orange Salt
+            </span>
+            <span class="prdt_variant" role="button" tabindex="0"
+              data-main-src="images/prdt_rgt_img_4.png"
+              data-flavor="Variety Pack"
+              data-prev-price="$45.99"
+              data-curr-price="$36.50"
+              data-tagline="Try multiple flavors in one pack—perfect for discovering your favorite."
+              aria-label="Select Variety Pack">
+              <img src="images/prdt_rgt_img_4.png" class="prdt_rgt_img" alt="Variety Pack">Variety Pack
+            </span>
           </div>
 
           <div class="prdt_ing_hl">
