@@ -592,7 +592,7 @@ header .navbar-nav {
 /* ------------------------------ offer --------------------------- */
 .offer {
     position: relative;
-    background-image: url(../images/offer_bg.png);
+    background-image: url(https://hih7.com/backend/hydration_spot/wp-content/uploads/2026/05/offer_bg.png);
     height: 935px;
     background-size: 100% 100%;
 }
@@ -655,7 +655,7 @@ header .navbar-nav {
 .crcl_after::after {
   position: absolute;
   content: "";
-  background: url(../images/btm_circle_aftr.png);
+  background: url(https://hih7.com/backend/hydration_spot/wp-content/uploads/2026/05/btm_circle_aftr.png);
   bottom: -15px;
   width: 98px;
   height: 28px;
@@ -770,7 +770,7 @@ header .navbar-nav {
 /* -------------------- community ---------------- */
 
 .community .container {
-  background: url(../images/community_bg.png);
+  background: url(https://hih7.com/backend/hydration_spot/wp-content/uploads/2026/05/community_bg-1.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: 471px;
@@ -803,7 +803,7 @@ header .navbar-nav {
 
 /* ------------------------ purpose ---------------- */
 .purpose {
-  background: url(../images/purpose_bg.png);
+  background: url(https://hih7.com/backend/hydration_spot/wp-content/uploads/2026/05/purpose_bg.png);
   height: 1250px;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -888,7 +888,7 @@ header .navbar-nav {
 .hyd_bking {
     position: relative;
     height: 966px;
-    background-image: url(/images/shop_sec.png);
+    background-image: url(https://hih7.com/backend/hydration_spot/wp-content/uploads/2026/05/shop_sec.png);
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -927,7 +927,7 @@ header .navbar-nav {
 .sp_crd {
     width: 841px;
     height: 725px;
-    background: url(/images/shop_rgt_img.png);
+    background: url(https://hih7.com/backend/hydration_spot/wp-content/uploads/2026/05/shop_rgt_img.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -1431,7 +1431,7 @@ header .navbar-nav {
 }
 
 .spot.blue_part {
-    background: url(../images/Subtract.png);
+    background: url(https://hih7.com/backend/hydration_spot/wp-content/uploads/2026/05/Subtract.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: auto;
@@ -1518,7 +1518,7 @@ header .navbar-nav {
 }
 
 .prdct_img_otr.crcl_after::after {
-    background: url(../images/btm_blu_curve.png);
+    background: url(https://hih7.com/backend/hydration_spot/wp-content/uploads/2026/05/btm_blu_curve.png);
     bottom: -32px;
     width: 211px;
     height: 59px;
@@ -1785,7 +1785,7 @@ header .navbar-nav {
 .spot.pdt_dt_spot::after {
   position: absolute;
   content: "";
-  background-image: url(/images/background_curve.png);
+  background-image: url(https://hih7.com/backend/hydration_spot/wp-content/uploads/2026/05/background_curve.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
@@ -1991,7 +1991,10 @@ header .navbar-nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
+}
+.prdt_ing_hl{
+  margin-top: 20px;
 }
 .prdt_ing_hd {
   padding-bottom: 20px;
@@ -2107,7 +2110,7 @@ header .navbar-nav {
   top: 0;
   left: 0;
   z-index: 100;
-  background: url("../images/porpose_top_desk.png");
+  background: url("https://hih7.com/backend/hydration_spot/wp-content/uploads/2026/05/porpose_top_desk.png");
   display: none;
 }
 /* Avik */
@@ -2125,7 +2128,10 @@ header .navbar-nav {
   transition: outline-color 0.2s ease, transform 0.2s ease;
   height: 150px;
 }
-.rgt_btm_imgs .prdt_rgt_img{
-  border: 1px solid black;
-  border-radius: 10px;
+.prdt_magnify_wrap {
+  position: relative;
+  flex: 1 1 52%;
+  min-width: 0;
+  width: auto !important;
+  max-width: 100%;
 }
